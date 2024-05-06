@@ -1,0 +1,5 @@
+azure-identity
+streamlit==1.22.0
+streamlit-chat
+openai==0.27.7
+tenacity

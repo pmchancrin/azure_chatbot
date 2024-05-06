@@ -1,0 +1,8 @@
+services:
+  streamlit:
+    image: acrpmcchatgptapp.azurecr.io/chatgptapp
+    environment:
+      OPENAI_API_BASE: https://abnopenaiv2.openai.azure.com/
+      OPENAI_API_KEY: 489a3d9eabe8492eb9610b8744991a07
+    ports:
+      - '80:8501'

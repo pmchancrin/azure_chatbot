@@ -1,6 +1,6 @@
 services:
   streamlit:
-    image: you_registry.azurecr.io/chatgptapp
+    image: your_registry.azurecr.io/chatgptapp
     environment:
       OPENAI_API_BASE: https://your_url.openai.azure.com/
       OPENAI_API_KEY: your_apikey
